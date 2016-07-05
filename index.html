@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="app.js"></script>
+    <title>Weekend Project 2</title>
+</head>
+
+<body>
+    <section class="wrapper">
+        <Header class="main">
+            <h1>XI WEEKEND PROJECT #2</h1>
+            <h2>GIF GENERATOR</h2>
+        </Header>
+        <section class="displaySection">
+            <header class="searchHeader">
+                <form id="1" class="searchForm">
+                    <h2>Browse random GIFS. Or narrow the results with a theme.</h2>
+                    <label for="gifSearch"></label>
+                    <input type="text" name="gifSearch" id="gifSearch" placeholder="Example: Dogs" />
+                    <input class="submitbut" type="submit" value=" Click for Gifs" />
+                </form>
+            </header>
+        </section>
+        <section class="stickerSection">
+            <header class="searchHeader">
+                <form id="1" class="stickerForm">
+                    <h2>Browse random Stickers. Or narrow the results with a theme.</h2>
+                    <label for="stickerSearch"></label>
+                    <input type="text" name="stickerSearch" id="stickerSearch" placeholder="Example: cars" />
+                    <input class="submitbut" type="submit" value=" Click for stickers" />
+                </form>
+            </header>
+        </section>
+        <section class="searchSection">
+            <header class="searchHeader2">
+                <form id="1" class="nonRandomForm">
+                    <h2>Narrow your results. Search for specific GIFs</h2>
+                    <label for="nonRandomSearch"></label>
+                    <input type="text" name="nonRandomSearch" id="nonRandomSearch" placeholder="Example:Fast and the furious" />
+                    <input class="submitbut" type="submit" value="Search Results" />
+                </form>
+
+            </header>
+            <div class="nonRandomSearchDiv">
+            </div>
+        </section>
+
+
+
+        <section class="trendingSection">
+            <header class="searchHeader">
+                <h2>Browse Trending GIFS</h2>
+                <button id="1" class="trendingBut">Click for GIFS</button>
+            </header>
+            <div class="trendingDiv">
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

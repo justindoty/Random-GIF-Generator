@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*EVERYTHING ABOVE IS THE RESET> DONT CHANGE!!!!!*/
+
+body {
+    background-color: rgba(47, 79, 100, .5);
+}
+header {
+    height: 140px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    margin: 5px 0 25px 0;
+    background-color: rgba(136, 205, 236, .9);
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.displaySection {
+    width: 100%;
+    height: auto;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: #a2bca2;
+    background-image: url(tunnel.jpg);
+    height: 3000px;
+    webkit-box-shadow: -1px 1px 5px 4px #606060;
+    -moz-box-shadow: -1px 1px 5px 4px #606060;
+    box-shadow: -1px 1px 5px 4px #606060;
+}
+.randomGifDiv {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+.mainImg {
+    border: 2px solid black;
+    margin-left: 35%;
+    padding: 10px;
+}
+.stickerImg {
+    border: 2px solid black;
+    margin-left: 35%;
+    padding: 10px;
+    background-color: rgba(120, 210, 245, .3);
+}
+.submitbut {
+    display: inline;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    color: #black;
+    background-color: #555;
+    background: -webkit-linear-gradient(#DAFEFB, #1666C9);
+    background: linear-gradient(#DAFEFB, #1666C9);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.submitbut:focus {
+    outline: 0;
+}
+.submitbut:active {
+    transition: ease .3ms all;
+    background: -webkit-linear-gradient(#1666C9, #DAFEFB);
+    background: linear-gradient(#1666C9, #DAFEFB);
+}
+button {
+    display: inline;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    color: #black;
+    background-color: #555;
+    background: -webkit-linear-gradient(#DAFEFB, #1666C9);
+    background: linear-gradient(#DAFEFB, #1666C9);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    margin-left: 20px;
+}
+button {
+    outline: 0;
+}
+button:active {
+    transition: ease .3ms all;
+    background: -webkit-linear-gradient(#1666C9, #DAFEFB);
+    background: linear-gradient(#1666C9, #DAFEFB);
+}
+label {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    left: -5px;
+    bottom: -8px;
+}
+input {
+    font-size: 20px;
+    background-color: rgba( 252, 253, 253, .8);
+    width: 300px;
+    border: 1px solid #999;
+    height: 30px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+form {
+    width: 100%;
+    padding: 15px;
+    display: block;
+}
+.stickerSection {
+    width: 100%;
+    height: auto;
+}
+.randomStickerDiv {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.nonRandomSearchDiv {
+    width: 90%;
+    height: auto;
+}
+header h2 {
+    margin-top: 10px;
+}
+.searchHeader h2 {
+    margin: 0px 0 15px 0;
+}
+.searchImg {
+    width: 30%;
+    height: auto;
+    display: inline;
+    margin: 10px;
+    border: 2px solid black;
+}
+.trendingImg {
+    width: 20%;
+    height: auto;
+    display: inline;
+    margin: 15px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+.searchHeader {
+    background-color: rgba(120, 210, 245, .7);
+}
+.trendingSection {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.trendingDiv {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+#tryagain {
+    background-color: rgba(120, 210, 245, .7);
+    text-align: center;
+    padding-bottom: 5px;
+}
